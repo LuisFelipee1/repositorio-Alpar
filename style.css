@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.divBtn {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#alterarBtn {
+    padding: 10px;
+    border: solid 1px rgb(88, 177, 255);
+    border-radius: 15px;
+    background-color: rgb(88, 177, 255);
+    animation-name: pulse;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#alterarBtn:hover {
+    background-color: transparent;
+    box-shadow: 7px 5px 5px rgb(88, 177, 255);
+}
+
+.atividades {
+    text-align: center;
+    padding-top: 50vh;
+    flex-basis: 200;
+}
+
+.ati {
+    display: inline-block;
+    width: 150px;
+    vertical-align: middle;
+    border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.all {
+    background: url('./images/photoNY.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    transition: filter 0.5s;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+
+.btnAti {
+    padding: 10px;
+    border: solid 1px rgb(88, 177, 255);
+    border-radius: 15px;
+    background-color: rgb(88, 177, 255);
+    animation-name: pulse;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    transition: 0.5s;
+}
+
+.btnAti:hover {
+    background-color: transparent;
+    box-shadow: 7px 5px 5px rgb(88, 177, 255);
+}
+

@@ -1,13 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividades do Rocket Program - HTML</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <a href="./Atividade1/">ATIVIDADE 1 AQUI</a><br>
-    <a href="./Atividade2/">ATIVIDADE 2 AQUI</a><br>
-    <a href="./Atividade3/">ATIVIDADE 3 AQUI</a><br>
+
+<body class="all">
+    <div class="divBtn">
+        <button id="alterarBtn">Alterar</button>
+    </div>
+    <div class="atividades">
+        <div class="ati">
+            <button class="btnAti">
+                <a href="./Atividade1/">ATIVIDADE 1 AQUI</a>
+            </button>
+            <br>
+        </div>
+        <div class="ati">
+            <button class="btnAti">
+                <a href="./Atividade2/">ATIVIDADE 2 AQUI</a>
+            </button>
+            <br>
+        </div>
+        <div class="ati">
+            <button class="btnAti">
+                <a href="./Atividade3/">ATIVIDADE 3 AQUI</a>
+            </button>
+            <br>
+        </div>
+        <div class="ati">
+            <button class="btnAti">
+                <a href="./Atividade4/">ATIVIDADE 4 AQUI</a>
+            </button>
+            <br>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var btn = document.getElementById('alterarBtn');
+            var body = document.querySelector('*');
+
+            btn.addEventListener('click', function() {
+                if (body.style.filter === 'brightness(50%)') {
+                    body.style.filter = '';
+                } else {
+                    body.style.filter = 'brightness(50%)';
+                }
+            });
+        });
+    </script>
 </body>
+
 </html>
