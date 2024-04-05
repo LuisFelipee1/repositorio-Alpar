@@ -1,0 +1,39 @@
+.heade {
+    text-align: center;
+    background-color: rgb(255, 251, 0);
+    padding: 2rem;
+}
+
+.foot {
+    background-color: rgb(255, 251, 0);
+    text-align: center;
+    padding: 7px;
+}
+
+.cardapio {
+    /* display: flex;
+    justify-content: center; */
+    background-image: url('./coffee.jpeg');
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    width: 300px;
+    border-radius: 20px;
+    padding: 3rem;
+    border: 2px rgb(255, 255, 255) solid;
+    box-shadow: 7px 7px 7px rgb(255, 255, 255);
+}
+
+.CardCardapio {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(41, 41, 41);
+}
+
+.tabela {
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    padding: 10px;
+}
