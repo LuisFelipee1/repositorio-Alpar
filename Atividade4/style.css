@@ -28,9 +28,60 @@ body {
 }
 
 .img {
+    width: 250px;
     border-radius: 50%;
     border: 5px solid rgb(255, 68, 0);
     animation: bordaLogo 4s infinite;
+}
+
+@media only screen and (max-width: 600px) {
+    .img {
+        width: 200px;
+    }
+
+    .audioOnly {
+        width: 200px;
+    }
+
+    .episodios {
+        margin: 5px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 10px;
+        letter-spacing: 2px;
+        font-weight: 300;
+    }
+
+    .namePrincipal {
+        font-size: medium;
+    }
+
+    video {
+        width: 350px;
+    }
+
+    @keyframes palavras {
+
+        0%,
+        40% {
+            padding: 5px;
+        }
+
+        41%,
+        80% {
+            padding: 5px;
+        }
+
+        81%,
+        100% {
+            padding: 5px;
+        }
+    }
 }
 
 @keyframes bordaLogo {
@@ -52,7 +103,7 @@ body {
 }
 
 .namePod {
-    padding: 40px;
+    padding: 20px;
 }
 
 h1 {

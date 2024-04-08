@@ -50,15 +50,6 @@ body {
     font-size: 25px;
 }
 
-.about {
-    justify-content: center;
-    background-color: #575aa1;
-    border-radius: 20px;
-    padding: 20px;
-    box-shadow: 7px 7px 7px;
-    border: 3px solid black;
-}
-
 h3 {
     width: 400px;
     padding: 10px;
@@ -66,15 +57,6 @@ h3 {
 
 a {
     text-decoration: none;
-}
-
-.habili {
-    background-color: #575aa1;
-    padding: 20px;
-    border: solid black 1px;
-    border-radius: 20px;
-    box-shadow: 7px 7px 7px;
-    width: 500px;
 }
 
 .icons {
@@ -87,12 +69,6 @@ a {
     font-size: 20px;
     letter-spacing: 2px;
     color: #000000;
-}
-
-.cardHabilidades {
-    padding: 30px;
-    display: flex;
-    justify-content: center;
 }
 
 span {
@@ -108,4 +84,108 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+}
+
+.about {
+    justify-content: center;
+    background-color: #575aa1;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 7px 7px 7px;
+    border: 3px solid black;
+}
+
+.cardHabilidades {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.habili {
+    background-color: #575aa1;
+    padding: 20px;
+    border: solid black 1px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 7px;
+    width: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+    .all {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .name {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        font-size: 15px;
+    }
+    
+    .nameHabili {
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+        letter-spacing: 2px;
+        padding: 0;
+    }    
+
+    .icons {
+        width: 70px;
+        padding: 3px;
+    }
+
+    .cardHabilidades {
+        width: 100%;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .habili {
+        padding: 10px;
+        width: 250px;
+        height: 130px;
+    }
+
+    body {
+        /* align-items: center;
+        text-align: center;
+        align-content: center; */
+    }
+
+    h3 {
+        width: 200px;
+        font-size: 12px;
+    }
+
+    .fixHabilidades {
+        padding: 0;
+    }
+
+    .infos, .about, .foto {
+        display: inline-block;
+        flex-grow: 1;
+        flex-basis: 200;
+    }
+
+    .infos {
+        margin: 0;
+        padding: 2px;
+    }
+
+    .p {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foto {
+        width: 100px;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
 }
