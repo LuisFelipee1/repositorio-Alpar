@@ -41,14 +41,11 @@ body {
 
     .audioOnly {
         width: 200px;
+        padding: 10px;
     }
 
     .episodios {
         margin: 5px;
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
 
     h1 {
@@ -58,7 +55,7 @@ body {
     }
 
     .namePrincipal {
-        font-size: medium;
+        font-size: 20px;
     }
 
     video {
@@ -124,7 +121,7 @@ h1::before {
     box-shadow: 7px 7px 7px white;
     border-radius: 20px;
     border: 1px solid white;
-    width: 400px;
+    width: 350px;
     justify-content: center;
     flex-basis: 200;
     flex-grow: 1;
