@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKEDEX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="divTitle">
+        <img class="imgTitle" src="./png.png" alt="">
+    </div>
+    <h1 class="digite">DIGITE O NOME DO POKEMON:</h1>
+    <label for="">
+        <input class="inputPoke" type="text" placeholder="Pokemon">
+    </label>
+    <button onclick="showPoke()" class="search">Pesquisar</button>
+    <button onclick="renderall()" class="renderAll">Mostrar todos os pokemons</button>
+    <div class="cardSearch">
+        <div>
+            <h2>Nomes para pesquisar:</h2>
+            <p>bulbasaur</p>
+            <p>ivysaur</p>
+            <p>venusaur</p>
+            <p>charmander</p>
+            <p>charmeleon</p>
+            <p>charizard</p>
+            <p>squirtle</p>
+            <p>wartortle</p>
+            <p>blastoise</p>
+            <p>caterpie</p>
+            <p>metapod</p>
+            <p>butterfree</p>
+            <p>weedle</p>
+            <p>kakuna</p>
+            <p>beedrill</p>
+            <p>pidgey</p>
+            <p>pidgeotto</p>
+            <p>rattata</p>
+            <p>raticate</p>
+        </div>
+        <div class="pokemons"></div>
+    </div>
+    <div class="allPokes"></div>
+    <script src="./script.js"></script>
+</body>
+</html>
