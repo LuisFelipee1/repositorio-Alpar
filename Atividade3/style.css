@@ -43,6 +43,22 @@ body {
     display: flex;
 }
 
+.back {
+    display: flex;
+    margin: 1rem;
+    position: fixed;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.back:hover {
+    background-color: black;
+    color: yellow;
+}
+
 @media only screen and (max-width: 600px) {
     .formu {
         padding: 10px;

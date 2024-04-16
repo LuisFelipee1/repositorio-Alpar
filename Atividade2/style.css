@@ -23,6 +23,22 @@
     box-shadow: 7px 7px 7px rgb(255, 255, 255);
 }
 
+.back {
+    display: flex;
+    margin: 1rem;
+    position: fixed;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.back:hover {
+    background-color: black;
+    color: yellow;
+}
+
 .CardCardapio {
     display: flex;
     justify-content: center;

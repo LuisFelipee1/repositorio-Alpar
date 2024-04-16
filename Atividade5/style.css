@@ -98,3 +98,9 @@ body {
     list-style: none;
     margin-bottom: 5px;
 }
+
+.back {
+    display: flex;
+    margin: 1rem;
+    position: fixed;
+}

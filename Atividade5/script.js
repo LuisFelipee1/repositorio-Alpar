@@ -62,3 +62,7 @@ async function showPoke() {
     `
     // divPoke.innerHTML = ''
 }
+
+function back() {
+    window.location.pathname = '/'
+}
