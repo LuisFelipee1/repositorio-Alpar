@@ -64,5 +64,5 @@ async function showPoke() {
 }
 
 function back() {
-    window.location.pathname = '/'
+    window.location.pathname = 'luisfelipee1.github.io/repositorio-Alpar/'
 }
