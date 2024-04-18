@@ -48,7 +48,3 @@ function deposit() {
     const contaBanc = new ContaBancaria(saldoAtual);
     contaBanc.depositar(dinheiro);
 }
-
-function back() {
-    window.location.pathname = 'luisfelipee1.github.io/repositorio-Alpar/'
-}

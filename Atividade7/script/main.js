@@ -5,7 +5,6 @@ const quartoInterface = new InterfaceUsuario("quarto");
 const banheiroInterface = new InterfaceUsuario("banheiro");
 // Event Listeners para botões
 
-
 // sala
 document.getElementById("salaLigar").addEventListener("click", function() {
     ControleIluminacao.instance.alterarEstado("sala", true);
@@ -37,7 +36,3 @@ document.getElementById("banheiroLigar").addEventListener("click", function() {
 document.getElementById("banheiroDesligar").addEventListener("click", function() {
     ControleIluminacao.instance.alterarEstado("banheiro", false);
 });
-
-function back() {
-    window.location.pathname = 'luisfelipee1.github.io/repositorio-Alpar/'
-}
