@@ -48,3 +48,7 @@ function deposit() {
     const contaBanc = new ContaBancaria(saldoAtual);
     contaBanc.depositar(dinheiro);
 }
+
+function back() {
+    window.location.pathname = '/'
+}

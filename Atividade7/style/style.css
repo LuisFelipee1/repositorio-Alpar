@@ -1,0 +1,66 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-image: url(../pexels-photo-106399.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    color: #FFE900;
+}
+
+.comodo {
+    margin: 10px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button {
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 7px;
+    padding: 5px;
+    transition: 0.2s;
+}
+
+.back {
+    display: flex;
+    margin: 1rem;
+    position: fixed;
+    background-color: #FFE900;
+    transition: 0.3s;
+}
+
+.back:hover {
+    background-color: transparent;
+}
+
+.light {
+    background-color: yellow
+}
+
+.light:hover {
+    box-shadow: 3px 3px 3px #FFE900;
+    color: black;
+}
+
+.dark {
+    background-color: black;
+    color: yellow;
+}
+
+.dark:hover {
+    box-shadow: 3px 3px 3px #FFE900;
+    color: yellow;
+}

@@ -10,6 +10,18 @@
     align-items: center;
 }
 
+.back {
+    display: flex;
+    margin: 1rem;
+    position: fixed;
+    background: linear-gradient(100deg, #ce0029, #c21052, #b81570);
+    transition: 1s;
+}
+
+.back:hover {
+    background: transparent;
+}
+
 body {
    height: 100vh;
    padding-top: 210px;
