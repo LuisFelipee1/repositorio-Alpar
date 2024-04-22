@@ -79,10 +79,6 @@ body {
     transition: 1s;
 }
 
-.pokemon:hover {
-    
-}
-
 .pokemon img {
     width: 150px;
     height: 150px;
