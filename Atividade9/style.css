@@ -1,0 +1,93 @@
+body {
+    background-color: #181717;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.inputTask {
+    background-color: #2e2e2e;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 7px;
+}
+
+.inputTime {
+    width: 26px;
+    height: 30px;
+    background-color: #181717;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+    transition: 1s;
+}
+
+.add {
+    margin: 10px;
+    width: 50px;
+    height: 30px;
+    background-color: #181717;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.add:hover {
+    background-color: white;
+    color: black;
+}
+
+.inputTime:hover {
+    width: 70px;
+}
+
+.content {
+    text-align: start;
+    width: 130px;
+    background: linear-gradient(to right, #fd43b4, #b261d0, #368ff7);
+    background-clip: text;
+    /* display: inline; */
+    color: transparent;
+}
+
+.check {
+    cursor: pointer;
+}
+
+.listTodo {
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    height: 100vh; /* Altura igual à altura da janela do navegador */
+}
+
+.eachTask {
+    display: flex;
+    text-align: center;
+}
+
+.btnExcluir {
+    position: relative;
+    height: 30px;
+    margin-top: 19px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+p {
+    padding: 10px 50px 10px 10px;
+    width: 100px;
+}
